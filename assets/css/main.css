@@ -1,3 +1,18 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 @font-face { font-family: Sweet_Toffee; src: url('Sweet Toffee.TTF'); }
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.city {
+	position: absolute;
+	top: 600px;
+	left: 520px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: clip;
+}

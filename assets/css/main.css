@@ -3,7 +3,7 @@
 @font-face { font-family: Sweet_Toffee; src: url('Sweet Toffee.TTF'); }
 
 .container {
-	position: relative;
+	position: absolute;
 	text-align: center;
 	color: white;
 }
